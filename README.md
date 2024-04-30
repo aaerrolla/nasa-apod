@@ -14,14 +14,15 @@ source venv/bin/activate
 ```
 2. project structure
 
-    nasa-apod   
-        --- nasa_apod  
-        -------__init__.py  
-        -------apod.py  
-        ---.gitignore  
-        ---README.md  
-        ---setup.py  
-        ---pyproject.toml  
+    nasa-apod  
+
+        nasa_apod  
+            __init__.py  
+            apod.py  
+        .gitignore  
+        README.md  
+        setup.py  
+        pyproject.toml  
 
  3. Packaging
 
@@ -52,7 +53,7 @@ pip install nasa_apod
 store your NASA_API_KEY  in  .env  file , and make sure  you add .env to  .gitignore file.
 
 e.g  
-NASA_API_KEY=You NASA API KEY
+NASA_API_KEY=Your NASA API KEY
 
 #### usage
 
