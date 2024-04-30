@@ -7,7 +7,7 @@ setup(
     install_requires=['requests'],
     author='Anjaneyulu Aerrolla',
     author_email='aaerrolla@gmail.com',
-    description='Python package for interacting with NASA APO API',
+    description='Python package for interacting with NASA APOD API',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/aaerrolla/nasa_apod',
